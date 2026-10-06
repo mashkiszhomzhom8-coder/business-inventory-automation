@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local data and generated logs
+inventory.db
+logs/
+*.log
+
+# Excel working files and temporary backups
+~$*.xlsm
+~$*.xlsx
+*_backup.xlsm
+*_backup.xlsx
+*.xlsx
+*.xlsm
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
